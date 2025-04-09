@@ -16,7 +16,7 @@ const App = () => {
           {" "}
           <Hero />
         </section>
-        <section id="Car">
+        <section id="Car" className="hidden lg:block">
           {" "}
           <Car />
         </section>
@@ -29,7 +29,7 @@ const App = () => {
           {" "}
           <Dashboard />
         </section>
-        <section id="Walk">
+        <section id="Walk" className="hidden lg:block">
           <Walk />
         </section>
       </div>
